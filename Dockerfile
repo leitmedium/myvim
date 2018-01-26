@@ -1,6 +1,5 @@
 # Multistage builds to reduce image size to ~37MB # by tuanhtrng
 FROM alpine:latest as builder
-MAINTAINER JAremko <w3techplaygound@gmail.com>
 WORKDIR /tmp
 # Install dependencies
 RUN apk add --no-cache \
